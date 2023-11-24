@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/api/platform/content-types/platform/schema.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1700832696450,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1700832696450,
+            "name": "Commit-0",
+            "content": "\n{\n  \"kind\": \"collectionType\",\n  \"collectionName\": \"platforms\",\n  \"info\": {\n    \"singularName\": \"platform\",\n    \"pluralName\": \"platforms\",\n    \"displayName\": \"platform\"\n  },\n  \"options\": {\n    \"draftAndPublish\": false\n  },\n  \"pluginOptions\": {},\n  \"attributes\": {\n    \"name\": {\n      \"type\": \"string\",\n      \"required\": true\n    },\n    \"slug\": {\n      \"type\": \"uid\",\n      \"targetField\": \"name\"\n    }\n  }\n}\n"
+        }
+    ]
+}

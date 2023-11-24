@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "platforms",
+  "collectionName": "publishers",
   "info": {
-    "singularName": "platform",
-    "pluralName": "platforms",
-    "displayName": "platform"
+    "singularName": "publisher",
+    "pluralName": "publishers",
+    "displayName": "publisher"
   },
   "options": {
     "draftAndPublish": false
@@ -21,9 +21,9 @@
     },
     "games": {
       "type": "relation",
-      "relation": "manyToMany",
+      "relation": "oneToMany",
       "target": "api::game.game",
-      "mappedBy": "platforms"
+      "mappedBy": "publisher"
     }
   }
 }

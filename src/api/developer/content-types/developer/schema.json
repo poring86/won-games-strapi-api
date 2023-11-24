@@ -1,10 +1,11 @@
 {
   "kind": "collectionType",
-  "collectionName": "platforms",
+  "collectionName": "developers",
   "info": {
-    "singularName": "platform",
-    "pluralName": "platforms",
-    "displayName": "platform"
+    "singularName": "developer",
+    "pluralName": "developers",
+    "displayName": "developer",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -23,7 +24,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::game.game",
-      "mappedBy": "platforms"
+      "mappedBy": "developers"
     }
   }
 }
